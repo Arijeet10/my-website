@@ -1,5 +1,5 @@
+import Navbar from "@/components/Navbar";
 import "./globals.css";
-
 
 export const metadata = {
   title: "Arijeet Sarkar",
@@ -9,7 +9,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

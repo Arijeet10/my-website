@@ -50,10 +50,10 @@ const Navbar = () => {
         </div>
         {/* Desktop View */}
         <div className=" hidden sm:col-span-8 sm:flex sm:items-center sm:justify-end sm:gap-8">
-          <Link href="#" className="hover:text-amber-700">
+          <Link href="/" className="hover:text-amber-700">
             Home
           </Link>
-          <Link href="#" className="hover:text-amber-700">
+          <Link href="/#about" className="hover:text-amber-700">
             About
           </Link>
           <Link href="#" className="hover:text-amber-700">

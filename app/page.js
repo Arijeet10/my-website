@@ -1,17 +1,17 @@
 import About from "@/components/About";
 import HeroSection from "@/components/Hero";
-import Navbar from "@/components/Navbar";
 
 const Home = () => {
-  return ( 
+  return (
     <>
       <div>
-        <Navbar />
         <HeroSection />
-        <About />
+        <div id="about">
+          <About />
+        </div>
       </div>
     </>
-   );
-}
- 
+  );
+};
+
 export default Home;
