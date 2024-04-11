@@ -1,3 +1,4 @@
+import HeroSection from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 
 const Home = () => {
@@ -5,6 +6,7 @@ const Home = () => {
     <>
       <div>
         <Navbar />
+        <HeroSection />
       </div>
     </>
    );

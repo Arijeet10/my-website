@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="shadow-sm sm:px-6 sm:py-2 p-2 flex items-center justify-between sm:grid sm:grid-cols-12 font-semibold uppercase">
+      <nav className="shadow-sm sm:px-6 sm:py-2 p-2 flex items-center justify-between sm:grid sm:grid-cols-12 font-semibold uppercase">
         <div className="col-span- sm:col-span-4  flex items-center justify-start ">
           <img src="/profile.svg" alt="profile image" className="w-14 h-14" />
           <div className="">Arijeet Sarkar</div>
@@ -28,7 +28,7 @@ const Navbar = () => {
               >
                 <IoReorderThree
                   onClick={() => setSidebar(false)}
-                  className={`w-10 h-10 absolute top-4 right-0 `}
+                  className={`w-10 h-10 absolute top-4 right-2 `}
                 />
               </motion.div>
             )}
@@ -42,7 +42,7 @@ const Navbar = () => {
               >
                 <IoClose
                   onClick={() => setSidebar(true)}
-                  className={`w-10 h-10 absolute top-4 right-0`}
+                  className={`w-10 h-10 absolute top-4 right-2`}
                 />
               </motion.div>
             )}
@@ -63,15 +63,15 @@ const Navbar = () => {
             Contact
           </Link>
         </div>
-      </div>
+      </nav>
       {/* Nav menus for Mobile View */}
       {!sidebar && (
         <AnimatePresence>
         <motion.div
-          initial={{opacity:0,x:30}}
+          initial={{opacity:0,x:50}}
           animate={{opacity:1,x:0}}
-          transition={{duration:0.5}}
-          className={`sm:hidden flex flex-col items-end shadow-md font-semibold`}
+          transition={{duration:0.7}}
+          className={`sm:hidden absolute w-full z-50 bg-white flex flex-col items-end shadow-md font-semibold`}
         >
           <Link
             href="#"
