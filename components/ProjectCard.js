@@ -8,7 +8,7 @@ const ProjectCard = () => {
           <img
             src="/blog_app.png"
             alt="project image"
-            className="object-cover rounded-md"
+            className="object-cover rounded-md w-full h-full"
           />
         </div>
         <div className=" p-4  sm:col-span-5 flex flex-col justify-between gap-4">
@@ -32,7 +32,8 @@ const ProjectCard = () => {
           </div>
           <div>
             <Link
-              href="#"
+              href="https://blog-app-omega-rose.vercel.app/"
+              target="_blank"
               className="border border-black shadow-md hover:border-none hover:bg-amber-700 hover:text-white  font-semibold px-6 py-2 rounded-md"
             >
               Visit
