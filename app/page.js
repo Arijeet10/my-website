@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import HeroSection from "@/components/Hero";
+import Projects from "@/components/Projects";
 
 const Home = () => {
   return (
@@ -8,6 +9,9 @@ const Home = () => {
         <HeroSection />
         <div id="about">
           <About />
+        </div>
+        <div id="projects">
+          <Projects />
         </div>
       </div>
     </>

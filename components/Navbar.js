@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="shadow-sm sm:px-6 sm:py-2 p-2 flex items-center justify-between sm:grid sm:grid-cols-12 font-semibold uppercase">
+      <nav className="sticky top-0 bg-white shadow-sm sm:px-6 sm:py-2 p-2 flex items-center justify-between sm:grid sm:grid-cols-12 font-semibold uppercase">
         <div className="col-span- sm:col-span-4  flex items-center justify-start ">
           <img src="/profile.svg" alt="profile image" className="w-14 h-14" />
           <div className="">Arijeet Sarkar</div>
@@ -56,7 +56,7 @@ const Navbar = () => {
           <Link href="/#about" className="hover:text-amber-700">
             About
           </Link>
-          <Link href="#" className="hover:text-amber-700">
+          <Link href="/#projects" className="hover:text-amber-700">
             Projects
           </Link>
           <Link href="#" className="hover:text-amber-700">
@@ -67,25 +67,32 @@ const Navbar = () => {
       {/* Nav menus for Mobile View */}
       {!sidebar && (
         <div
-          className={`sm:hidden absolute w-full z-50 bg-white flex flex-col items-end shadow-md font-semibold`}
+          className={` sm:hidden sticky top-[72px] w-full z-50 bg-white flex flex-col items-end shadow-md font-semibold`}
         >
           <Link
-            href="#"
+            href="/"
+            onClick={() => setSidebar(true)}
             className=" p-4 hover:text-amber-700 border-y border-slate-300 w-full text-end"
           >
             Home
           </Link>
-          <Link href="#" className="p-4 hover:text-amber-700 w-full text-end">
+          <Link
+            href="/#about"
+            onClick={() => setSidebar(true)}
+            className="p-4 hover:text-amber-700 w-full text-end"
+          >
             About
           </Link>
           <Link
-            href="#"
+            href="/#projects"
+            onClick={() => setSidebar(true)}
             className="p-4 hover:text-amber-700 border-t border-slate-300 w-full text-end"
           >
             Projects
           </Link>
           <Link
             href="#"
+            onClick={() => setSidebar(true)}
             className="p-4 hover:text-amber-700 border-y border-slate-300 w-full text-end"
           >
             Contact
