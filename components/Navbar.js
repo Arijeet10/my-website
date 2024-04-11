@@ -66,11 +66,7 @@ const Navbar = () => {
       </nav>
       {/* Nav menus for Mobile View */}
       {!sidebar && (
-        <AnimatePresence>
-        <motion.div
-          initial={{opacity:0,x:50}}
-          animate={{opacity:1,x:0}}
-          transition={{duration:0.7}}
+        <div
           className={`sm:hidden absolute w-full z-50 bg-white flex flex-col items-end shadow-md font-semibold`}
         >
           <Link
@@ -94,8 +90,7 @@ const Navbar = () => {
           >
             Contact
           </Link>
-        </motion.div>
-        </AnimatePresence>
+        </div>
       )}
     </>
   );
