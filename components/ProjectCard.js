@@ -4,13 +4,13 @@ const ProjectCard = ({ data,index,activeProject }) => {
   return (
     <>
       <div
-        className={`h-[550px] sm:h-[400px] w-full p-4 ${index!==activeProject && "hidden"}  grid gap-4 items-center justify-center sm:grid-cols-12 border border-slate-50 rounded-md shadow-2xl`}
+        className={`h-[550px] sm:h-[400px] w-full p-4 ${index!==activeProject && "hidden"}  grid gap-4 items-center justify-center sm:grid-cols-12 border border-slate-50 rounded-md shadow-lg`}
       >
         <div className="h-full sm:col-span-7 sm:flex sm:items-center sm:justify-center">
           <img
             src={data.thumbnail}
             alt="project image"
-            className="object-cover rounded-t-md sm:rounded-md border border-slate-400 shadow-sm "
+            className="object-contain h-full sm:h-auto rounded-md sm:rounded-md border border-slate-400 shadow-sm "
           />
         </div>
         <div className="h-full sm:col-span-5 flex flex-col justify-between items-stretch gap-4">
