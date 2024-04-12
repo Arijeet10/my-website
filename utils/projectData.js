@@ -8,7 +8,7 @@ export const projectData=[
     },
     {
         name:"Project2",
-        desc:"This project will be soon published",
+        desc:"This project will be published soon",
         tools:["Next.js","Tailwind CSS","API"],
         url:"#",
         thumbnail:""
