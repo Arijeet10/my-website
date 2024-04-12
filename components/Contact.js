@@ -13,7 +13,7 @@ const Contact = () => {
 
     const handleSubmit=()=>{
         console.log(form);
-        if(form){
+        if(form.name!==""||form.email!==""||form.message!==""){
             toast.success("Message Delivered");
         }
         setForm({
