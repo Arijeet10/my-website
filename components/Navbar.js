@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="sticky top-0 bg-white shadow-sm sm:px-6 sm:py-2 p-2 flex items-center justify-between sm:grid sm:grid-cols-12 font-semibold uppercase">
+      <nav className="sticky top-0 bg-white z-50 shadow-sm sm:px-6 sm:py-2 p-2 flex items-center justify-between sm:grid sm:grid-cols-12 font-semibold uppercase">
         <div className="col-span- sm:col-span-4  flex items-center justify-start ">
           <img src="/profile.svg" alt="profile image" className="w-14 h-14" />
           <div className="">Arijeet Sarkar</div>
@@ -59,7 +59,7 @@ const Navbar = () => {
           <Link href="/#projects" className="hover:text-amber-700">
             Projects
           </Link>
-          <Link href="#" className="hover:text-amber-700">
+          <Link href="/#contact" className="hover:text-amber-700">
             Contact
           </Link>
         </div>
@@ -91,7 +91,7 @@ const Navbar = () => {
             Projects
           </Link>
           <Link
-            href="#"
+            href="/#contact"
             onClick={() => setSidebar(true)}
             className="p-4 hover:text-amber-700 border-y border-slate-300 w-full text-end"
           >

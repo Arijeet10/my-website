@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Contact from "@/components/Contact";
 import HeroSection from "@/components/Hero";
 import Projects from "@/components/Projects";
 
@@ -12,6 +13,9 @@ const Home = () => {
         </div>
         <div id="projects">
           <Projects />
+        </div>
+        <div id="contact">
+          <Contact />
         </div>
       </div>
     </>
