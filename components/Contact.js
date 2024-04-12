@@ -16,6 +16,11 @@ const Contact = () => {
         if(form){
             toast.success("Message Delivered");
         }
+        setForm({
+            name:"",
+            email:"",
+            message:""
+        })
     }
 
   return (
