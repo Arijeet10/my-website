@@ -36,7 +36,7 @@ const Contact = () => {
         </div>
         <form
           onClick={(e) => handleSubmit(e)}
-          className="border border-slate-50 dark:border-amber-700 rounded-md shadow-lg p-8"
+          className="border border-slate-50  rounded-md shadow-lg p-8"
         >
           <div className="flex flex-col gap-1 py-2">
             <label htmlFor="name" className="text-slate-600 dark:text-white font-medium">

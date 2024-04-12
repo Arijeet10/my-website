@@ -4,7 +4,7 @@ const ProjectCard = ({ data,index,activeProject }) => {
   return (
     <>
       <div
-        className={`h-[550px] sm:h-[400px] w-full p-4 ${index!==activeProject && "hidden"}  grid gap-4 items-center justify-center sm:grid-cols-12 border border-slate-50 dark:border-amber-700 rounded-md shadow-lg`}
+        className={`h-[550px] sm:h-[400px] w-full p-4 ${index!==activeProject && "hidden"}  grid gap-4 items-center justify-center sm:grid-cols-12 border border-slate-50  rounded-md shadow-lg`}
       >
         <div className="h-full sm:col-span-7 sm:flex sm:items-center sm:justify-center">
           <img

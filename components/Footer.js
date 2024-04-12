@@ -34,7 +34,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <div className="border-t border-slate-400 dark:border-amber-700 w-full" />
+          <div className="border-t border-slate-400  w-full" />
           <div className="py-6 text-center text-xs font-extralight">
             © Copyright 2024. Made By{" "}
             <span>

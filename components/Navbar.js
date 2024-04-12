@@ -14,7 +14,7 @@ const Navbar = ({darkMode,setDarkMode}) => {
 
   return (
     <>
-      <nav className={`sticky top-0 dark:bg-black dark:text-white dark:border-b dark:border-amber-700 bg-white z-50 shadow-sm sm:px-6 sm:py-2 p-2 flex items-center justify-between sm:grid sm:grid-cols-12 font-semibold uppercase`}>
+      <nav className={`sticky top-0 dark:bg-black dark:text-white dark:border-b  bg-white z-50 shadow-sm sm:px-6 sm:py-2 p-2 flex items-center justify-between sm:grid sm:grid-cols-12 font-semibold uppercase`}>
         <div className="col-span- sm:col-span-4  flex items-center justify-start ">
           <img src="/profile.svg" alt="profile image" className="w-14 h-14" />
           <div className="">Arijeet Sarkar</div>
@@ -76,7 +76,7 @@ const Navbar = ({darkMode,setDarkMode}) => {
           <Link
             href="/"
             onClick={() => setSidebar(true)}
-            className=" p-4 hover:text-amber-700 border-y dark:border-b dark:border-amber-700 border-slate-300 w-full text-end"
+            className=" p-4 hover:text-amber-700 border-y dark:border-b  border-slate-300 w-full text-end"
           >
             Home
           </Link>
@@ -90,14 +90,14 @@ const Navbar = ({darkMode,setDarkMode}) => {
           <Link
             href="/#projects"
             onClick={() => setSidebar(true)}
-            className="p-4 hover:text-amber-700 border-t dark:border-amber-700 border-slate-300 w-full text-end"
+            className="p-4 hover:text-amber-700 border-t  border-slate-300 w-full text-end"
           >
             Projects
           </Link>
           <Link
             href="/#contact"
             onClick={() => setSidebar(true)}
-            className="p-4 hover:text-amber-700 border-y dark:border-amber-700 border-slate-300 w-full text-end"
+            className="p-4 hover:text-amber-700 border-y  border-slate-300 w-full text-end"
           >
             Contact
           </Link>
