@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 
-.boxshadow{
-    box-shadow: 2px 2px 2px 2px rgb(204, 204, 203);
+*{
+    @apply transition-colors duration-100;
 }
