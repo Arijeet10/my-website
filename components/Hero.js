@@ -35,8 +35,7 @@ const HeroSection = () => {
           </div>
           <div className="py-4">
             <Link
-              href="#"
-              
+              href="https://docs.google.com/document/d/12ahFiFeJ0akzohSI2gM-yIfKMCEdoPEHkYvlpRwnHxI/edit?usp=sharing"
               className="border border-black bg-white shadow-md hover:border-none hover:bg-amber-700 hover:text-white text-amber-700 font-semibold px-4 py-2 rounded-md"
             >
               Download Resume
