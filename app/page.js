@@ -13,16 +13,16 @@ const Home = () => {
 
   return (
     <>
-      <div className={`${darkMode && "dark"}`}>
+      <div className={`${darkMode && "dark"} `}>
         <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
         <HeroSection />
-        <div id="about">
+        <div id="about" className="p-4 dark:bg-black dark:text-white">
           <About />
         </div>
-        <div id="projects">
+        <div id="projects" className="p-4 dark:bg-black dark:text-white">
           <Projects />
         </div>
-        <div id="contact">
+        <div id="contact" className="p-4 dark:bg-black dark:text-white">
           <Contact />
         </div>
         <Footer />

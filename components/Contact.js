@@ -14,7 +14,13 @@ const Contact = () => {
     e.preventDefault();
     console.log(form);
     if (form.name !== "" || form.email !== "" || form.message !== "") {
-      toast.success("Message Delivered");
+      toast(
+        "Contact form under maintenance..\n please mail to: arijeetsocial@gmail.com until form starts working again.\nSorry for the inconvenience😅",
+        {
+          duration: 10000,
+        }
+      );
+
       setForm({
         name: "",
         email: "",
@@ -39,7 +45,10 @@ const Contact = () => {
           className="border border-slate-50  rounded-md shadow-lg p-8"
         >
           <div className="flex flex-col gap-1 py-2">
-            <label htmlFor="name" className="text-slate-600 dark:text-white font-medium">
+            <label
+              htmlFor="name"
+              className="text-slate-600 dark:text-white font-medium"
+            >
               Name
             </label>
             <input
@@ -52,7 +61,10 @@ const Contact = () => {
             />
           </div>
           <div className="flex flex-col gap-1 py-2">
-            <label htmlFor="email" className="text-slate-600 dark:text-white font-medium">
+            <label
+              htmlFor="email"
+              className="text-slate-600 dark:text-white font-medium"
+            >
               Email
             </label>
             <input
@@ -66,7 +78,10 @@ const Contact = () => {
             />
           </div>
           <div className="flex flex-col gap-1 py-2">
-            <label htmlFor="message" className="text-slate-600 dark:text-white font-medium">
+            <label
+              htmlFor="message"
+              className="text-slate-600 dark:text-white font-medium"
+            >
               Message
             </label>
             <textarea
@@ -84,7 +99,7 @@ const Contact = () => {
             <input
               type="submit"
               value="Submit"
-              className=" border border-black dark:border-none dark:bg-white dark:text-black dark:hover:bg-amber-700 dark:hover:text-white shadow-md hover:border-none  hover:bg-amber-700 hover:text-white  font-semibold px-8 py-2 rounded-md uppercase"
+              className=" border border-black dark:border-none dark:bg-white dark:text-black dark:hover:bg-amber-700 dark:hover:text-white shadow-md hover:border-amber-700  hover:bg-amber-700 hover:text-white  font-semibold px-8 py-2 rounded-md uppercase"
             />
           </div>
         </form>
