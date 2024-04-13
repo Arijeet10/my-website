@@ -10,7 +10,7 @@ export const projectData=[
         name:"MovieInfo",
         desc:"An app to view browse movies according to different genres and get the details",
         tools:["Next.js","Tailwind CSS","TMDB API"],
-        url:"#https://movie-info-sable.vercel.app/",
+        url:"https://movie-info-sable.vercel.app/",
         thumbnail:"/movieInfo_app.png"
     },
     {
