@@ -23,22 +23,22 @@ const About = () => {
           <div className="flex flex-col items-start gap-4">
             <div className="font-semibold text-xl">My Skills</div>
             <div className="font-medium grid grid-cols-3 lg:grid-cols-4 justify-center items-center gap-2 overflow-hidden">
-              <div className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black py-2 rounded-sm text-center">
+              <div className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black dark:hover:text-white font-medium py-2 rounded-sm text-center">
                 HTML
               </div>
-              <div className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black py-2 rounded-sm text-center">
+              <div className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black dark:hover:text-white font-medium py-2 rounded-sm text-center">
                 CSS
               </div>
-              <div className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black py-2 rounded-sm text-center">
+              <div className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black dark:hover:text-white font-medium py-2 rounded-sm text-center">
                 JavaScript
               </div>
-              <div className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black py-2 rounded-sm text-center">
+              <div className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black dark:hover:text-white font-medium py-2 rounded-sm text-center">
                 React
               </div>
-              <div className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black py-2 rounded-sm text-center">
+              <div className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black dark:hover:text-white font-medium py-2 rounded-sm text-center">
                 Next.js
               </div>
-              <div className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black p-2 rounded-sm text-center">
+              <div className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black dark:hover:text-white font-medium p-2 rounded-sm text-center">
                 Tailwind CSS
               </div>
             </div>

@@ -22,7 +22,7 @@ const ProjectCard = ({ data,index,activeProject }) => {
                 return (
                   <div
                     key={i}
-                    className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black p-2 rounded-sm text-center"
+                    className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black dark:hover:text-white p-2 rounded-sm text-center font-medium"
                   >
                     {item}
                   </div>
