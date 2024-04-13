@@ -7,15 +7,15 @@ export const projectData=[
         thumbnail:"/blog_app.png"
     },
     {
-        name:"Project2",
-        desc:"This project will be published soon",
-        tools:["Next.js","Tailwind CSS","API"],
-        url:"#",
-        thumbnail:""
+        name:"MovieInfo",
+        desc:"An app to view browse movies according to different genres and get the details",
+        tools:["Next.js","Tailwind CSS","TMDB API"],
+        url:"#https://movie-info-sable.vercel.app/",
+        thumbnail:"/movieInfo_app.png"
     },
     {
         name:"Project 3",
-        desc:"A product landing page",
+        desc:"A product landing page which will be published soon",
         tools:["Next.js","Tailwind CSS","Framer Motion","React"],
         url:"#",
         thumbnail:""
