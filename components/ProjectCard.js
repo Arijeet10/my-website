@@ -13,7 +13,7 @@ const ProjectCard = ({ data,index,activeProject }) => {
             className="object-contain h-full sm:h-auto rounded-md sm:rounded-md border sm:border-slate-400 dark:border-none shadow-sm "
           />
         </div>
-        <div className="h-full sm:col-span-5 flex flex-col justify-between items-stretch gap-4">
+        <div className="h-full sm:col-span-5 flex flex-col justify-around items-stretch gap-4">
           <div className="text-slate-500 dark:text-white">{data.desc}</div>
           <div className="font-medium ">
             <div className="pb-2">Tools Used:</div>
