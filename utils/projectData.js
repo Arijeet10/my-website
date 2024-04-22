@@ -1,10 +1,10 @@
 export const projectData=[
     {
-        name:"Blog App",
-        desc:"A simple blog application to read blogs and also post your own blogs by creating an account.",
-        tools:["Next.js","Tailwind CSS","Redux","MongoDB"],
-        url:"https://blog-app-omega-rose.vercel.app/",
-        thumbnail:"/blog_app.png"
+        name:"FakeInsta",
+        desc:"A full stack social media application to share posts,like and comment on posts and follow or unfollow people.",
+        tools:["Next.js","Tailwind CSS","Context API","React","Axios","JWT"],
+        url:"https://fakeinsta-hazel.vercel.app/",
+        thumbnail:"/fakeinsta_homepage.png"
     },
     {
         name:"MovieInfo",
@@ -14,10 +14,10 @@ export const projectData=[
         thumbnail:"/movieInfo_app.png"
     },
     {
-        name:"Project 3",
-        desc:"A product landing page which will be published soon",
-        tools:["Next.js","Tailwind CSS","Framer Motion","React"],
-        url:"#",
-        thumbnail:""
+        name:"Blog App",
+        desc:"A simple blog application to read blogs and also post your own blogs by creating an account.",
+        tools:["Next.js","Tailwind CSS","Redux","MongoDB"],
+        url:"https://blog-app-omega-rose.vercel.app/",
+        thumbnail:"/blog_app.png"
     }
 ]
