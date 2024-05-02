@@ -12,13 +12,25 @@ const About = () => {
         </div>
         <div className="grid gap-4 sm:grid-cols-2 sm:items-center sm:justify-center ">
           <div className="font-medium text-slate-400 dark:text-white">
-            I am a{" "}
-            <span className="text-slate-600 dark:text-slate-400">
+            I am passionate about software development technologies to drive
+            meaningful change. With a background in Software Engineering, I
+            thrive on solving problems and delivering solutions to them. I have
+            done my graduation in{" "}<span className="text-slate-600 dark:text-slate-400">
               Computer Science and Engineering
             </span>{" "}
-            graduate. I have made a few projects on web and mobile app
-            development using <span className="text-slate-600 dark:text-slate-400">JavaScript</span>{" "}
-            frameworks.
+            . I am proficient in Full Stack Development, have made various web
+            applications using{" "}
+            <span className="text-slate-600 dark:text-slate-400">
+              JavaScript
+            </span>{" "}
+            libraries and frameworks like{" "}
+            <span className="text-slate-600 dark:text-slate-400">React.js</span>
+            ,{" "}
+            <span className="text-slate-600 dark:text-slate-400">Node.js</span>{" "}
+            and{" "}
+            <span className="text-slate-600 dark:text-slate-400">Next.js</span>.
+            I am dedicated to continuous learning and staying at the forefront
+            of industry trends.
           </div>
           <div className="flex flex-col items-start gap-4">
             <div className="font-semibold text-xl">My Skills</div>
