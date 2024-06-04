@@ -6,7 +6,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <>
-      <div className="  p-8 flex flex-col gap-4 bg-black dark:bg-[#303030] dark:border-t text-white">
+      <div className="  p-8 flex flex-col gap-4 bg-[#131313] dark:bg-[#212121]  text-white">
         <div className=" grid gap-4 justify-between sm:grid-cols-3">
           <div className="sm:col-span-1 flex flex-col gap-2">
             <div className="text-lg font-medium">Socials</div>

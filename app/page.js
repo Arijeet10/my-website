@@ -16,13 +16,13 @@ const Home = () => {
       <div className={`${darkMode && "dark"} `}>
         <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
         <HeroSection />
-        <div id="about" className="p-4 dark:bg-[#303030] dark:text-white">
+        <div id="about" className="p-4 bg-[#ffffff] dark:bg-[#2b2b2b] dark:text-white">
           <About />
         </div>
-        <div id="projects" className="p-4 dark:bg-[#303030] dark:text-white">
+        <div id="projects" className="p-4 bg-[#ffffff] dark:bg-[#2b2b2b] dark:text-white">
           <Projects />
         </div>
-        <div id="contact" className="p-4 dark:bg-[#303030] dark:text-white">
+        <div id="contact" className="p-4 bg-[#ffffff] dark:bg-[#2b2b2b] dark:text-white">
           <Contact />
         </div>
         <Footer />
