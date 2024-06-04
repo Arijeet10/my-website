@@ -51,6 +51,15 @@ const About = () => {
                 Next.js
               </div>
               <div className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black dark:hover:text-white font-medium p-2 rounded-sm text-center">
+                Node.js
+              </div>
+              <div className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black dark:hover:text-white font-medium p-2 rounded-sm text-center">
+                SQL
+              </div>
+              <div className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black dark:hover:text-white font-medium p-2 rounded-sm text-center">
+                NoSQL
+              </div>
+              <div className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black dark:hover:text-white font-medium p-2 rounded-sm text-center">
                 Tailwind CSS
               </div>
             </div>
