@@ -1,5 +1,12 @@
 export const projectData=[
     {
+        name:"Ecommerce",
+        desc:"A full stack ecommerce application to shop various products, wishlist items, add to cart and purchase them.",
+        tools:["Next.js","Tailwind CSS","Prisma","MongoDB","Auth JS","JWT"],
+        url:"https://ecommerce-ten-virid.vercel.app/",
+        thumbnail:"/ecommerce_app.png"
+    },
+    {
         name:"FakeInsta",
         desc:"A full stack social media application to share posts,like and comment on posts and follow or unfollow people.",
         tools:["Next.js","Tailwind CSS","Context API","React","Axios","JWT"],

@@ -6,7 +6,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const HeroSection = () => {
   return (
     <>
-      <div className={` p-8 sm:p-20 dark:bg-black dark:text-white grid sm:grid-cols-12 sm:justify-center gap-8 `}>
+      <div className={` p-8 sm:p-20 dark:bg-[#240750] dark:text-white grid sm:grid-cols-12 sm:justify-center gap-8 `}>
         <div className="sm:col-span-5">
           <img
             src="/hero_programmer.svg"
