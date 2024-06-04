@@ -14,7 +14,7 @@ const Navbar = ({darkMode,setDarkMode}) => {
 
   return (
     <>
-      <nav className={`sticky top-0 dark:bg-[#182747] dark:text-white dark:border-b  bg-white z-50 shadow-sm sm:px-6 sm:py-2 p-2 flex items-center justify-between sm:grid sm:grid-cols-12 font-semibold uppercase`}>
+      <nav className={`sticky top-0 dark:bg-[#303030] dark:text-white dark:border-b  bg-white z-50 shadow-sm sm:px-6 sm:py-2 p-2 flex items-center justify-between sm:grid sm:grid-cols-12 font-semibold uppercase`}>
         <div className="col-span- sm:col-span-4  flex items-center justify-start ">
           <img src="/profile.svg" alt="profile image" className="w-14 h-14" />
           <div className="">Arijeet Sarkar</div>
@@ -47,7 +47,7 @@ const Navbar = ({darkMode,setDarkMode}) => {
           </AnimatePresence>
         </div>
         {/* Desktop View */}
-        <div className={`hidden dark:bg-[#182747] dark:text-white sm:col-span-8 sm:flex sm:items-center sm:justify-end sm:gap-8`}>
+        <div className={`hidden dark:bg-[#303030] dark:text-white sm:col-span-8 sm:flex sm:items-center sm:justify-end sm:gap-8`}>
           {darkMode ? (
             <MdOutlineLightMode onClick={()=>setDarkMode(false)} className="w-7 h-7  hover:text-amber-700" />
           ) : (
@@ -71,7 +71,7 @@ const Navbar = ({darkMode,setDarkMode}) => {
       {/* Nav menus for Mobile View */}
       {!sidebar && (
         <div
-          className={` dark:bg-[#182747] dark:text-white sm:hidden sticky top-[72px] w-full z-50 bg-white flex flex-col items-end shadow-md font-semibold`}
+          className={` dark:bg-[#303030] dark:text-white sm:hidden sticky top-[72px] w-full z-50 bg-white flex flex-col items-end shadow-md font-semibold`}
         >
           <Link
             href="/"

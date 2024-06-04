@@ -33,6 +33,7 @@ const ProjectCard = ({ data,index,activeProject }) => {
           <div className="">
             <Link
               href={data.url}
+              target="_blank"
               className=" border border-black  dark:bg-white dark:border-none dark:text-black dark:hover:bg-amber-700 dark:hover:text-white shadow-md hover:border-none hover:bg-amber-700 hover:text-white  font-semibold px-10 py-2 rounded-md"
             >
               Visit
