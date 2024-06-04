@@ -62,6 +62,15 @@ const About = () => {
               <div className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black dark:hover:text-white font-medium p-2 rounded-sm text-center">
                 Tailwind CSS
               </div>
+              <div className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black dark:hover:text-white font-medium p-2 rounded-sm text-center">
+                GSAP
+              </div>
+              <div className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black dark:hover:text-white font-medium p-2 rounded-sm text-center">
+                Figma
+              </div>
+              <div className="hover:bg-amber-700 hover:text-white bg-slate-200 dark:text-black dark:hover:text-white font-medium p-2 rounded-sm text-center">
+                Problem Solving
+              </div>
             </div>
           </div>
         </div>
