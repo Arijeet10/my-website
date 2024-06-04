@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <>
-      <div className="p-4 sm:px-10 dark:bg-[#240750] dark:text-white flex flex-col gap-8">
+      <div className="p-4 sm:px-10 dark:bg-[#182747] dark:text-white flex flex-col gap-8">
         <div className="flex flex-col items-center gap-2 text-center">
           <div className="text-3xl font-semibold  uppercase">About me</div>
           <div className="border-t-4 rounded-full border-amber-700 w-10 " />
